@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZixerApp", "ZixerApp\ZixerApp.csproj", "{8A159686-35DC-4A0A-BAF2-A6F709AEE0DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZixerApp.Tests", "ZixerApp.Tests\ZixerApp.Tests.csproj", "{793B0022-0A93-494D-BB1D-0448232100DB}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ARM", "ARM\ARM.deployproj", "{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A159686-35DC-4A0A-BAF2-A6F709AEE0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A159686-35DC-4A0A-BAF2-A6F709AEE0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A159686-35DC-4A0A-BAF2-A6F709AEE0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A159686-35DC-4A0A-BAF2-A6F709AEE0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793B0022-0A93-494D-BB1D-0448232100DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793B0022-0A93-494D-BB1D-0448232100DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793B0022-0A93-494D-BB1D-0448232100DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793B0022-0A93-494D-BB1D-0448232100DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {826B1FDD-A5B1-4984-A631-B86B884EA143}
+	EndGlobalSection
+EndGlobal
