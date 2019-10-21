@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZixerApp.Tests", "ZixerApp.
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ARM", "ARM\ARM.deployproj", "{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZixerAPI", "ZixerAPI\ZixerAPI.csproj", "{97AE40B1-B8FA-4F28-A3F1-5EC385DF1581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZixerAPI.Tests", "ZixerAPI.Tests\ZixerAPI.Tests.csproj", "{784E5D4B-6740-4513-AD1F-D37D7717255A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5AFA51F-7FF6-4FBD-BF60-7F244E962937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AE40B1-B8FA-4F28-A3F1-5EC385DF1581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AE40B1-B8FA-4F28-A3F1-5EC385DF1581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AE40B1-B8FA-4F28-A3F1-5EC385DF1581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AE40B1-B8FA-4F28-A3F1-5EC385DF1581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784E5D4B-6740-4513-AD1F-D37D7717255A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784E5D4B-6740-4513-AD1F-D37D7717255A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784E5D4B-6740-4513-AD1F-D37D7717255A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784E5D4B-6740-4513-AD1F-D37D7717255A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
